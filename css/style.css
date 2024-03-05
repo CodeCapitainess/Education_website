@@ -238,3 +238,15 @@ header{
 .category p{
     font-size: 0.85rem;
 }
+
+
+/* Courses */
+.courses{
+    margin-top: 10rem;
+}
+
+.courses__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
