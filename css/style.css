@@ -334,3 +334,22 @@ header{
     margin: 0 auto 1rem;
     border: 1rem solid var(--color-bg1);
 }
+
+.testimonial__info{
+    text-align: center;
+}
+
+.testimonial__body{
+    background: var(--color-primary);
+    padding: 2rem;
+    margin-top: 3rem;
+    position: relative;
+}
+
+.testimonial__body::before{
+    content: "";
+    display: block;
+    background: red;
+    width: 3rem;
+    height: 3rem;
+}
