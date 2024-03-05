@@ -300,10 +300,16 @@ header{
     line-height: 2.2;
 }
 
-.faq__icon{
+.faq_icon{
     align-self: flex-start;
+    font-size: 1.2rem;
 }
 
 .faq p{
-    margin: 0.8rem;
+    margin-top: 0.8rem;
+    display: none;
+}
+
+.faq.open p{
+    display: block;
 }
