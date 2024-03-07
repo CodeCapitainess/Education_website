@@ -357,3 +357,11 @@ header{
     top: -1.5rem;
     transform: rotate(45deg);
 }
+
+
+/* Footer */
+footer{
+    background: var(--color-bg1);
+    padding-top: 5rem;
+    font-size: 0.9rem;
+}
