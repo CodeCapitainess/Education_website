@@ -240,7 +240,7 @@ header{
 }
 
 
-/* Courses */
+/* Popular Courses */
 .courses{
     margin-top: 10rem;
 }
@@ -510,5 +510,32 @@ footer ul li a:hover{
     .categories__container{
         grid-template-columns: 1fr;
         gap: 3rem;
+    }
+
+    .categories__left{
+        margin-right: 0;
+    }
+
+    /* Popular Courses */
+    .courses{
+        margin-top: 0;
+    }
+
+    .courses__container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Popular Courses */
+    .faqs__container{
+        grid-template-columns: 1fr;
+    }
+
+    .faq{
+        padding: 1.5rem;
+    }
+
+    /* Popular Courses */
+    .footer__container{
+        grid-template-columns: 1fr 1fr;
     }
 }
