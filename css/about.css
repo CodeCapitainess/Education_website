@@ -59,6 +59,7 @@
     padding: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    position: relative;
 }
 .team__member:hover{
     background: transparent;
@@ -69,4 +70,23 @@
 }
 .team__member:hover img{
     filter: saturate(1);
+}
+.team__member-info *{
+    text-align: center;
+    margin-top: 1.4rem;
+}
+.team__member-info p{
+    color: var(--color-light);
+}
+.team__member-socials{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-primary);
+    border-radius: 1rem 0 0 1rem;
+}
+.team__member-socials a{
+    
 }
